@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Audio Quiz</string>
+    <string name="Lbl_Adult">Adults</string>
+    <string name="lbl_teens">Teens</string>
 </resources>
