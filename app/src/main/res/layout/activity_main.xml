@@ -17,7 +17,8 @@
         android:textColor="@color/colorText"
         android:textSize="@dimen/activity_title"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
@@ -40,7 +41,9 @@
                 android:backgroundTint="#00ffffff"
                 android:src="@drawable/c1adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudiosActivity"
+                android:nestedScrollingEnabled="false" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -48,9 +51,10 @@
                 android:id="@+id/btn_c2Adults"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/c2adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -58,9 +62,10 @@
                 android:id="@+id/btn_s1Adults"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/s1adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -68,9 +73,10 @@
                 android:id="@+id/btn_s2Adults"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/s2adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -78,9 +84,10 @@
                 android:id="@+id/btn_a1Adults"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/a1adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -88,9 +95,10 @@
                 android:id="@+id/btn_a2Adults"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/a2adults"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -104,7 +112,9 @@
         android:textSize="@dimen/activity_title"
         android:textColor="@color/colorText"
         android:layout_below="@+id/scrollAdults"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
@@ -125,9 +135,10 @@
                 android:id="@+id/btn_c1Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/c1teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -135,9 +146,10 @@
                 android:id="@+id/btn_c2Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/c2teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -145,9 +157,10 @@
                 android:id="@+id/btn_s1Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/s1teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -155,9 +168,10 @@
                 android:id="@+id/btn_s2Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/s2teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -165,9 +179,10 @@
                 android:id="@+id/btn_a1Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/a1teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -175,9 +190,10 @@
                 android:id="@+id/btn_a2Teens"
                 android:baselineAlignBottom="true"
                 android:backgroundTint="#00ffffff"
-                android:src="@drawable/c1adults"
+                android:src="@drawable/a2teens"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:onClick="openAudios"/>
 
         </LinearLayout>
     </HorizontalScrollView>

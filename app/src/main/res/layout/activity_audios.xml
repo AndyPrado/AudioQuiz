@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.dev.prado.audioquiz.activities.AudiosActivity"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewAudio"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_play"
+        android:id="@+id/btn_play"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_play"
+        android:elevation="@dimen/button_elevation"
+        android:textColor="@color/colorText"
+        android:onClick="playSelectedAudio"
+        android:nestedScrollingEnabled="false" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_audios"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
