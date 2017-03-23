@@ -23,7 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TesteActivity" />
-        <activity android:name=".activities.AudiosActivity"></activity>
+        <activity android:name=".activities.AudiosActivity" />
+        <activity android:name=".activities.PlayerActivity"></activity>
     </application>
 
 </manifest>
