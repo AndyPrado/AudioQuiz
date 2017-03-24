@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1018994898297",
+    "firebase_url": "https://audio-quiz.firebaseio.com",
+    "project_id": "audio-quiz",
+    "storage_bucket": "audio-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018994898297:android:5bccf330161855f1",
+        "android_client_info": {
+          "package_name": "app.dev.prado.audioquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018994898297-q9c69ae8d2ja6g4id57fula54c8mkd2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.dev.prado.audioquiz",
+            "certificate_hash": "70b201d9920236bc890b8230f61076b82091d759"
+          }
+        },
+        {
+          "client_id": "1018994898297-mp3g4uhupcmur46he2bpr582vps815oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcgFL6EppviUoEYShMwR4WOMv3ZvBv81s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018994898297-mp3g4uhupcmur46he2bpr582vps815oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
