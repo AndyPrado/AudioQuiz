@@ -4,4 +4,6 @@
     <string name="lbl_teens">Teens</string>
     <string name="btn_play">Play</string>
     <string name="btn_login">Login</string>
+    <string name="hint_email">Enter your e-mail</string>
+    <string name="hint_password">Enter your password</string>
 </resources>
