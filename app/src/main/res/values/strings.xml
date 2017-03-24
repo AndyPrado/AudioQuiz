@@ -3,4 +3,5 @@
     <string name="Lbl_Adult">Adults</string>
     <string name="lbl_teens">Teens</string>
     <string name="btn_play">Play</string>
+    <string name="btn_login">Login</string>
 </resources>
