@@ -98,14 +98,14 @@ public class AudiosActivity extends AppCompatActivity {
                 break;
             case "s1 Teens":
                 banner.setImageResource(R.drawable.s1teens);
-                audios[0] = 0;
+                audios[0] = R.raw.q1_s1_teens;
                 audios[1] = R.raw.q2_s1_teens;
                 audios[2] = R.raw.q3_s1_teens;
                 audios[3] = R.raw.q4_s1_teens;
                 break;
             case "s2 Teens":
                 banner.setImageResource(R.drawable.s2teens);
-                audios[0] = 0;
+                audios[0] = R.raw.q1_s2_teens;
                 audios[1] = R.raw.q2_s2_teens;
                 audios[2] = R.raw.q3_s2_teens;
                 audios[3] = R.raw.q4_s2_teens;
